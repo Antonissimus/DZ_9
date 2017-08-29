@@ -19,15 +19,14 @@ body {
 }
 
 p {
-margin: auto;
-}	
-
-
+	margin: auto;
+}
 
 button {
 	width: calc(100%/7);
 	margin: 0px 1px;
-	font-size: 8px;
+	font-size: 0.5rem;
+	text-transform: none;
 }
 
 .nameOfPage {
@@ -36,19 +35,18 @@ button {
 	margin-bottom: 5px;
 }
 
-.links li{
+.links li {
 	display: inline-block;
 	font-size: 16px;
 	margin-left: 30px;
 }
 
-
 .clearfix:after {
-  content: "."; /* добавить содержимое: "." */
-  display: block;  /* сделать блоком, т.к. inline не может иметь clear */
-  clear: both;  /* с обеих сторон clear */
-  visibility: hidden; /* сделать невидимым, зачем нам точка внизу? */
-  height: 0;  /* сделать высоту 0, чтобы не занимал место */
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
 }
 
 .col.s9.main {
@@ -60,6 +58,6 @@ button {
 	margin-bottom: 40px;
 }
 
-nav{
+nav {
 	height: 800px;
 }
