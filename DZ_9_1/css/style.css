@@ -2,32 +2,23 @@ body {
 	box-sizing: border-box;
 }
 
-h1 {
-	display: block;
+.container {
+	background-color: #fff;
+	padding: 10px 10px 10px 10px;
 }
-.first {
+
+.header {
 	height: 400px;
-
 }
 
-.first div {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: center;
-
+.header h1 {
+	margin: 0 auto;
 }
 
-.second,
-.third,
-.fourth,
-.fifth {
+.content {
 	height: 200px;
 }
-.col {
-	height: 100%;
-	border: 10px solid white;
 
+.row:last-of-type {
+	margin-bottom: 0px;
 }
